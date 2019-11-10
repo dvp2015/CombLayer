@@ -44,7 +44,7 @@ class DBMaterial
   /// String convert type
   typedef std::map<std::string,int> SCTYPE;
   /// Storage type for Materials
-  typedef std::map<int,MonteCarlo::Material> MTYPE;
+  typedef std::map<int,MonteCarlo::Material*> MTYPE;
 
   /// Storage type for Neut Materials
   typedef std::map<int,scatterSystem::neutMaterial*> NTYPE;

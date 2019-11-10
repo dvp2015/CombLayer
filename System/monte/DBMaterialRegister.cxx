@@ -49,12 +49,12 @@
 #include "Zaid.h"
 #include "MXcards.h"
 #include "Material.h"
+#include "xrayMaterial.h"
 #include "DBMaterial.h"
 
 namespace ModelSupport
 {
 
-  
 void
 DBMaterial::initMaterial()
   /*!
